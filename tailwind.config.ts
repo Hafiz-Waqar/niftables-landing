@@ -29,6 +29,14 @@ const config: Config = {
           "sans-serif",
         ],
       },
+      colors: {
+        "purple-shade": {
+          1: "#AB23FF",
+        },
+        "black-shade": {
+          1: "#13171D",
+        },
+      },
     },
   },
   plugins: [],

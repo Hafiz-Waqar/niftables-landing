@@ -19,6 +19,24 @@
   src: url("./fonts/MonumentExtended-Regular.woff2");
 }
 
+@layer components {
+  .transs {
+    transition: all 0.2s linear;
+  }
+  .transs:hover {
+    transition: all 0.2s linear;
+  }
+  .bg-layer {
+    background: linear-gradient(
+      175deg,
+      #000 4.29%,
+      #3d8bff 47.39%,
+      #ab23ff 95.05%
+    );
+    mix-blend-mode: soft-light;
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
