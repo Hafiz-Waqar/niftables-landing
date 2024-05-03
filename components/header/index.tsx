@@ -5,7 +5,7 @@ import { Sidebar } from "./sidebar";
 
 export const Header = () => {
   return (
-    <div className="relative z-10 flex w-full items-center justify-between gap-5 px-6 pt-5 xl:px-8">
+    <div className="fixed left-0 top-0 z-50 flex w-full items-center justify-between gap-5 px-6 py-5 backdrop-blur-[8px] xl:px-8">
       <Image
         src="/images/logo.png"
         alt="logo"
@@ -22,7 +22,7 @@ export const Header = () => {
             <p>{data.name}</p>
             {data.soon && (
               <div className="flex h-[14px] items-center justify-center rounded-full bg-black px-1 py-0.5">
-                <span className="text-purple-shade-1 text-[10px]">SOON</span>
+                <span className="text-[10px] text-purple-shade-1">SOON</span>
               </div>
             )}
           </div>

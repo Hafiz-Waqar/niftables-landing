@@ -28,10 +28,10 @@ export const Section3rd = () => {
           </div>
           <div className="col-span-2 flex h-full items-center border-l border-r border-black-shade-1 px-[30px] lg:col-span-1">
             <div className="flex flex-col gap-7">
-              <h4 className="font-satoshi_bold font-bold leading-[130%] text-white [font-size:_clamp(22px,2vw,18px)]">
+              <h4 className="font-satoshi_bold font-bold leading-[130%] text-white [font-size:_clamp(18px,2vw,22px)]">
                 The dynamic community driven business model of the future.
               </h4>
-              <p className="leading-[130%] text-white [font-size:_clamp(18px,2vw,14px)]">
+              <p className="leading-[130%] text-white [font-size:_clamp(14px,2vw,18px)]">
                 At Creon, we blend the power of AI tools with the dynamic crypto
                 and NFT markets, utilizing an innovative business model to drive
                 profitability. This approach empowers our community, as our NFT

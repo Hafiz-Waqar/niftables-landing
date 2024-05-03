@@ -1,1 +1,9 @@
 export { default as Niftables } from "./niftables.svg";
+export { default as Active1st } from "./active-1st.svg";
+export { default as Active2nd } from "./active-2nd.svg";
+export { default as Active3rd } from "./active-3rd.svg";
+export { default as Active4th } from "./active-4th.svg";
+export { default as Disable1st } from "./disable-1st.svg";
+export { default as Disable2nd } from "./disable-2nd.svg";
+export { default as Disable3rd } from "./disable-3rd.svg";
+export { default as Disable4th } from "./disable-4th.svg";

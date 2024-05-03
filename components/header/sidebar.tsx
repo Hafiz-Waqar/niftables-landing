@@ -27,7 +27,7 @@ export const Sidebar = () => {
       <div
         ref={ref}
         className={clsx(
-          "absolute top-0 z-[100] flex min-h-screen w-[208px] flex-col justify-between bg-black py-5 duration-500",
+          "fixed top-0 z-[100] flex min-h-screen w-[208px] flex-col justify-between bg-black py-5 duration-500",
           sideBarOpen ? " right-0" : " -right-full",
         )}
       >
