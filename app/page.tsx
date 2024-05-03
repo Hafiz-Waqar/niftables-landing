@@ -5,6 +5,7 @@ import {
   Section1st,
   Section2nd,
   Section3rd,
+  Section5th,
 } from "@/components";
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
       </div>
       <Section2nd />
       <Section3rd />
+      <Section5th />
       <Footer />
     </main>
   );
