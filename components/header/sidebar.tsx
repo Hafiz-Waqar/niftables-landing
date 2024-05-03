@@ -27,7 +27,7 @@ export const Sidebar = () => {
       <div
         ref={ref}
         className={clsx(
-          "absolute top-0 z-50 flex h-dvh w-[208px] flex-col justify-between bg-black py-5 duration-500",
+          "absolute top-0 z-[100] flex min-h-screen w-[208px] flex-col justify-between bg-black py-5 duration-500",
           sideBarOpen ? " right-0" : " -right-full",
         )}
       >
@@ -48,12 +48,12 @@ export const Sidebar = () => {
               {headerData.map((data, index) => (
                 <div
                   key={index}
-                  className="border-black-shade-1 flex w-full cursor-pointer gap-1 border-b py-[15px] font-satoshi_bold text-lg font-bold text-white first:border-t"
+                  className="flex w-full cursor-pointer gap-1 border-b border-black-shade-1 py-[15px] font-satoshi_bold text-lg font-bold text-white first:border-t"
                 >
                   <p>{data.name}</p>
                   {data.soon && (
                     <div className="flex h-[14px] items-center justify-center rounded-full bg-black px-1 py-0.5">
-                      <span className="text-purple-shade-1 text-[10px]">
+                      <span className="text-[10px] text-purple-shade-1">
                         SOON
                       </span>
                     </div>

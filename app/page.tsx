@@ -1,5 +1,11 @@
 import React from "react";
-import { Header } from "@/components";
+import {
+  Footer,
+  Header,
+  Section1st,
+  Section2nd,
+  Section3rd,
+} from "@/components";
 
 export default function Home() {
   return (
@@ -15,7 +21,11 @@ export default function Home() {
           <source src={"/videos/main-background-video.mp4"} type="video/mp4" />
         </video>
         <Header />
+        <Section1st />
       </div>
+      <Section2nd />
+      <Section3rd />
+      <Footer />
     </main>
   );
 }

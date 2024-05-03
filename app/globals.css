@@ -35,10 +35,19 @@
     );
     mix-blend-mode: soft-light;
   }
+  .purple-gradient {
+    background: linear-gradient(90deg, #3d8bff 0%, #ab23ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+  .button-gradient {
+    background: linear-gradient(90deg, #3d8bff 0%, #ab23ff 100%);
   }
 }
