@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <Suspense>
       <main className="bg-black font-satoshi_regular">
-        <div className="relative h-[50dvh] md:h-dvh">
+        <div className="relative h-dvh">
           <video
             loop
             autoPlay={true}
